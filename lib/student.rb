@@ -28,7 +28,7 @@ end
   end
 
   def add_student_attributes(attributes_hash)
- Student.new(attributes_hash)
+ self.blog = :blog 
   end
 
   def self.all

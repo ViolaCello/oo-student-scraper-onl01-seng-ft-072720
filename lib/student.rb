@@ -30,7 +30,7 @@ end
   def add_student_attributes(attributes_hash)
  self.blog = attributes_hash[:blog]
  self.bio = attributes_hash[:bio]
- 
+ self.linkedin = attributes_hash[:linkedin]
   end
 
   def self.all

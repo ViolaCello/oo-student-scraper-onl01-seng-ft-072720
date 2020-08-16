@@ -28,7 +28,7 @@ end
   end
 
   def add_student_attributes(attributes_hash)
-  #  binding.pry
+ Student.new(attributes_hash)
   end
 
   def self.all

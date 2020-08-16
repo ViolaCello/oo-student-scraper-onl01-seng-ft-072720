@@ -31,6 +31,7 @@ end
  self.blog = attributes_hash[:blog]
  self.bio = attributes_hash[:bio]
  self.linkedin = attributes_hash[:linkedin]
+ self.profile_quote = attributes_hash[:profile_quote]
   end
 
   def self.all

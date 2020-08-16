@@ -29,6 +29,8 @@ end
 
   def add_student_attributes(attributes_hash)
  self.blog = attributes_hash[:blog]
+ self.bio = attributes_hash[:bio]
+ 
   end
 
   def self.all

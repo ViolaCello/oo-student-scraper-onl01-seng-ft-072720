@@ -9,6 +9,12 @@ class Student
       @name = student_hash[:name]
       @location = student_hash[:location]
       @twitter = student_hash[:twitter]
+      @linkedin = student_hash[:linkedin]
+      @github = student_hash[:github]
+      @blog = student_hash[:blog]
+      @profile_quote = [:profile_quote]
+      @bio = [:bio]
+      @profile_url = [:profile_url]
       @@all.push(self)
       
     end
@@ -22,7 +28,7 @@ end
   end
 
   def add_student_attributes(attributes_hash)
-    binding.pry
+  #  binding.pry
   end
 
   def self.all

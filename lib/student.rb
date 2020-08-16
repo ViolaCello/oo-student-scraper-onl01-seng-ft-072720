@@ -32,6 +32,7 @@ end
  self.bio = attributes_hash[:bio]
  self.linkedin = attributes_hash[:linkedin]
  self.profile_quote = attributes_hash[:profile_quote]
+ self.twitter = attributes_hash[:twitter]
   end
 
   def self.all
